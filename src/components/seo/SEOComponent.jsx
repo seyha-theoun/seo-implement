@@ -19,21 +19,20 @@ const SEO = ({
 
   return (
     <Helmet>
-      {/* Basic Meta */}
+      {/* HTML Meta Tags */}
       <title>{title}</title>
       <meta name="description" content={description} />
       <meta name="keywords" content={keywords} />
 
-      {/* Open Graph */}
+      {/* Facebook Meta Tags */}
       <meta property="og:url" content={fullUrl} />
       <meta property="og:type" content={type} />
       <meta property="og:title" content={title} />
       <meta property="og:description" content={description} />
       <meta property="og:image" content={fullImage} />
 
-      {/* Twitter Card */}
+      {/* Twitter Meta Tags */}
       <meta name="twitter:card" content="summary_large_image" />
-      <meta property="twitter:domain" content={new URL(siteUrl).hostname} />
       <meta property="twitter:url" content={fullUrl} />
       <meta name="twitter:title" content={title} />
       <meta name="twitter:description" content={description} />
@@ -56,4 +55,3 @@ const SEO = ({
 };
 
 export default SEO;
-
