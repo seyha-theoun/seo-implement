@@ -15,11 +15,11 @@ function App() {
     <div>
       {/* Implement SEO */}
       <SEO
-        title="Home | ODINN"
+        title="Home | SEYHA ODINN"
         description="ODINN is the most popular powerful ecommerce website which serves many Khmer products such as rural area"
         keywords="product, category, ecommerce, khmer-product"
         url="/"
-        image="https://opengraph.b-cdn.net/production/images/83f2bab8-df4d-4d74-88bb-c8bb4e2cd40d.png?token=c7is2HlISBKiv8vtc83311MqIn7CmXvWOIG7GM379CU&height=628&width=1200&expires=33290971123"
+        image="https://marketplace.canva.com/EAGO8qVpx7M/1/0/1600w/canva-cream-illustrative-food-journal-presentation-d3WZDM7BaWg.jpg"
       />
 
       <main className="max-w-screen-xl mx-auto">
