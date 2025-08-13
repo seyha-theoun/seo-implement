@@ -12,7 +12,7 @@ const SEO = ({
   type = 'website',
   twitterHandle = '@yourhandle'
 }) => {
-  const siteUrl = 'https://fd-003-project-i9yww7zr6-sokcheats-projects.vercel.app';
+  const siteUrl = "https://seo-implement.vercel.app";
   const fullUrl = url ? `${siteUrl}${url}` : siteUrl;
   const fullImage = image ? `${siteUrl}${image}` : `${siteUrl}/default-og-image.jpg`;
 
